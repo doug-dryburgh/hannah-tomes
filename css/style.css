@@ -1,13 +1,13 @@
-        @import url('https://fonts.googleapis.com/css?family=Arvo');
+@import url('https://fonts.googleapis.com/css?family=Arvo');
+
+/*TITLE*/
+
 .title {
     background-image: url(../images/background.jpg);
     background-size: cover;
-    background-attachment: scroll;
-    #background-position: center;
-    background-repeat: repeat;
     min-height: 50vh;
     text-align: center;
-    padding: 25px 25px 50px 25px;
+    padding: 25px 25px 0 25px;
 }
 
 .title div {
@@ -20,11 +20,14 @@
     margin: 0 20px 0 20px;
 }
 
+.title p {
+    color: white;
+}
+
 .titleGraphic {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    #margin: 0 20px 0 20px;
 }
 
 .titleBreakL {
@@ -46,16 +49,95 @@
     justify-content: center;
 }
 
+.tab {
+    height: 0;
+    width: 200px;
+    border-bottom: 50px solid white;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    margin: auto;
+}
+
+.tab p {
+    font-family: 'Arvo', serif;
+    font-size: 1.5em;
+    color: black;
+    padding-top: 10px;
+}
+
+
+/*CONTENT*/
+
+.content {
+    margin-top: 50px;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 25px 0 25px;
+}
+
+.heading span {
+    text-align: center;
+    min-width: 150px;
+}
+
+.headingBreak {
+    background-color: gray;
+    height: 2px;
+    border-radius: 15px;
+    width: 100%;
+}
+
+.articleContainer {
+    position: relative;
+    width: 400px;
+}
+
+.articleContainer span p {
+    position: absolute;
+    right: 0;
+    text-align: right;
+    width: 85%;
+}
+
+.image {
+        position: relative;
+    width: 400px;
+    height: 300px;
+    background-image: url(../images/temp.jpg);
+    background-size: cover;
+}
+
+.articleTitle {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding-right: 10px;
+    background-color: white;
+    width: 85%;
+    text-align: right;
+}
+
+.articleTitle h2 {
+    font-family: 'Arvo', serif;
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.articleTitle p {
+    color: gray;
+    margin: 0;
+}
+
 h1 {
     font-family: 'Arvo', serif;
     font-size: 3em;
     color: white;
     margin: 0;
     /*keep eye on this*/
-}
-
-p {
-    color: white;
 }
 
 i {
@@ -80,7 +162,10 @@ i {
     .title img {
         width: 150px;
     }
-    @media only screen and (min-width: 1200px) {
-        .title img {
-            width: 200px;
-        }
+}
+
+@media only screen and (min-width: 1200px) {
+    .title img {
+        width: 200px;
+    }
+}
