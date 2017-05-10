@@ -1,0 +1,86 @@
+        @import url('https://fonts.googleapis.com/css?family=Arvo');
+.title {
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-attachment: scroll;
+    #background-position: center;
+    background-repeat: repeat;
+    min-height: 50vh;
+    text-align: center;
+    padding: 25px 25px 50px 25px;
+}
+
+.title div {
+    margin-top: 25px;
+}
+
+.title img {
+    width: 50px;
+    height: auto;
+    margin: 0 20px 0 20px;
+}
+
+.titleGraphic {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    #margin: 0 20px 0 20px;
+}
+
+.titleBreakL {
+    background: linear-gradient(to left, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+    height: 3px;
+    border-radius: 15px;
+    width: 100%;
+}
+
+.titleBreakR {
+    background: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+    height: 3px;
+    border-radius: 50px;
+    width: 100%;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Arvo', serif;
+    font-size: 3em;
+    color: white;
+    margin: 0;
+    /*keep eye on this*/
+}
+
+p {
+    color: white;
+}
+
+i {
+    color: white;
+    margin: 0 25px 0 25px;
+}
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+@media only screen and (min-width: 576px) {
+    .title img {
+        width: 100px;
+    }
+}
+
+@media only screen and (min-width: 768px) {}
+
+@media only screen and (min-width: 992px) {
+    .title img {
+        width: 150px;
+    }
+    @media only screen and (min-width: 1200px) {
+        .title img {
+            width: 200px;
+        }
