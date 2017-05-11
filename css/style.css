@@ -110,6 +110,10 @@
     #background-image: url(../images/temp.jpg);
     #background-size: cover;
 }
+.image img {
+    width: 400px;
+    height: 300px;
+}
 
 .articleTitle {
     position: absolute;
@@ -130,6 +134,16 @@
     color: gray;
     text-align: right;
     margin: 0;
+}
+
+/*FOOTER*/
+.footer {
+    margin-top: 50px;
+    text-align: center;
+    color: gray;
+}
+.footer p {
+    margin-top: 25px;
 }
 
 
