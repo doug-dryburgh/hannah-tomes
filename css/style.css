@@ -162,6 +162,13 @@ i {
     margin: 0 25px 0 25px;
 }
 
+.articleContainer a {
+        text-decoration: none;
+    color: black;
+
+}
+
+
 .row {
     margin-right: 0;
     margin-left: 0;
