@@ -107,8 +107,6 @@
     position: relative;
     width: 400px;
     height: 300px;
-    #background-image: url(../images/temp.jpg);
-    #background-size: cover;
 }
 .image img {
     width: 400px;
@@ -172,24 +170,4 @@ i {
 .row {
     margin-right: 0;
     margin-left: 0;
-}
-
-@media only screen and (min-width: 576px) {
-    .title img {
-        width: 100px;
-    }
-}
-
-@media only screen and (min-width: 768px) {}
-
-@media only screen and (min-width: 992px) {
-    .title img {
-        width: 150px;
-    }
-}
-
-@media only screen and (min-width: 1200px) {
-    .title img {
-        width: 200px;
-    }
 }
