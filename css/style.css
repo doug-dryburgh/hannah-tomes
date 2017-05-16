@@ -10,9 +10,9 @@
     padding: 25px 25px 0 25px;
 }
 
-.title div {
+/*.title div {
     margin-top: 25px;
-}
+}*/
 
 .title img {
     width: 50px;
@@ -20,17 +20,26 @@
     margin: 0 20px 0 20px;
 }
 
-.title p {
+.title p,
+.title i {
     color: white;
+    margin-top: 25px;
 }
 
 .titleGraphic {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .titleBreakL {
+    background: -webkit-gradient(linear, right top, left top, from(rgba(255, 255, 255, 1)), to(rgba(255, 255, 255, 0)));
     background: linear-gradient(to left, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
     height: 3px;
     border-radius: 15px;
@@ -38,6 +47,7 @@
 }
 
 .titleBreakR {
+    background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 1)), to(rgba(255, 255, 255, 0)));
     background: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
     height: 3px;
     border-radius: 50px;
@@ -45,8 +55,12 @@
 }
 
 .social {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 
 .tab {
@@ -73,15 +87,26 @@
 }
 
 .flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 
 .heading {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin-top: 25px;
 }
 
@@ -151,12 +176,10 @@ h1 {
     font-family: 'Arvo', serif;
     font-size: 3em;
     color: white;
-    margin: 0;
-    /*keep eye on this*/
+    margin-bottom: 25px;
 }
 
 i {
-    color: white;
     margin: 0 25px 0 25px;
 }
 
@@ -170,4 +193,22 @@ i {
 .row {
     margin-right: 0;
     margin-left: 0;
+}
+
+@media only screen and (min-width: 576px) {
+    .title img {
+        width: 100px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .title img {
+        width: 150px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .title img {
+        width: 200px;
+    }
 }
