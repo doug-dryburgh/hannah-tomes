@@ -5,12 +5,16 @@
 .title {
     background-image: url(../images/background.jpg);
     background-size: cover;
-    min-height: 50vh;
     text-align: center;
     padding: 25px 25px 0 25px;
 }
 
+<<<<<<< HEAD
 /*.title div {
+=======
+.title p,
+.title i {
+>>>>>>> 8413ba8bfc237d4399125bee4454f8a6215b67eb
     margin-top: 25px;
 }*/
 
@@ -30,12 +34,18 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+<<<<<<< HEAD
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+=======
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 0 25px 0;
+>>>>>>> 8413ba8bfc237d4399125bee4454f8a6215b67eb
 }
 
 .titleBreakL {
@@ -90,11 +100,17 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+<<<<<<< HEAD
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+=======
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: -25px;
+>>>>>>> 8413ba8bfc237d4399125bee4454f8a6215b67eb
 }
 
 .heading {
@@ -130,12 +146,16 @@
 
 .image {
     position: relative;
+<<<<<<< HEAD
     width: 400px;
     height: 300px;
+=======
+>>>>>>> b6d409299d3508d561deebc7d880721c78cacf7d
 }
+
 .image img {
-    width: 400px;
-    height: 300px;
+    width: 100%;
+    height: auto;
 }
 
 .articleTitle {
@@ -159,12 +179,19 @@
     margin: 0;
 }
 
+.summary {
+    margin-top: 5px;
+}
+
+
 /*FOOTER*/
+
 .footer {
     margin-top: 50px;
     text-align: center;
     color: gray;
 }
+
 .footer p {
     margin-top: 25px;
 }
@@ -184,11 +211,9 @@ i {
 }
 
 .articleContainer a {
-        text-decoration: none;
+    text-decoration: none;
     color: black;
-
 }
-
 
 .row {
     margin-right: 0;
